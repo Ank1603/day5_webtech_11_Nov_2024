@@ -1,0 +1,9 @@
+{
+  "name": "Ankita",
+  "age": 24,
+  "hobbies": ["Playing", "Riding"],
+  "place": {
+    "location": "Pune",
+    "Pincode": 410504
+  }
+}

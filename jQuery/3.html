@@ -1,0 +1,24 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!--Events and effects-->
+
+<button id="x1">Hide</button>
+<button id="x1">Hide</button>
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quo commodi
+  repellat iste at accusamus suscipit similique veniam porro omnis. Voluptas
+  vero quis veniam odio cum autem cumque temporibus nesciunt?
+</p>
+<script>
+  $("#x1").click(function () {
+    // $(p).hide();
+    //   $('p').slideUp(1000);
+    $("p").fadeOut(1000);
+  });
+$("#x2").click(function () {
+    // $(p).show();
+    //  $('p').slideDown(3000);
+    $("p").fadeIn(3000);
+})
+
+</script>

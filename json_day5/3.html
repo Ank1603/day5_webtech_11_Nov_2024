@@ -1,0 +1,26 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<button>Get data</button>
+<input type="text" name="" id="x1">
+<input type="text" name="" id="x2">
+<button>Get</button>
+
+<script>
+    $(document).ready(function (){
+        $("button").click(function(){
+        
+            var data1 = $("#x1").val();
+            var data2 = $("#x2").val();
+            var record ={ email:data1, password:data2 };
+
+            console.log(record);
+
+            var result = JSON.stringify(record);
+            console.log(result);
+
+            var result = JSON.parse(result);
+            console.log(result);
+        
+        });
+    })
+</script>
